@@ -1,4 +1,4 @@
-FROM golang:1.12.1
+FROM golang:1.23rc2
 
 RUN adduser --disabled-password --gecos '' api
 USER api
